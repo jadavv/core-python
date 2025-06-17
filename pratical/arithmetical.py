@@ -62,11 +62,11 @@
 
 # concatanation
 
-a="ashish"
-b=" is good "
-c="boy"
+# a="ashish"
+# b=" is good "
+# c="boy"
 
-d=a+b
-e=d+c
-print(e)
-# print(a,b,c)
+# d=a+b
+# e=d+c
+# print(e)
+# # print(a,b,c)

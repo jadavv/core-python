@@ -1,12 +1,12 @@
-# text = "24_Club_Python_GNR"
+text = "24_Club_Python_GNR"
 
-# print(text.count('_'))
-# print(text.casefold() == "24_club_python_gnr")
-# print(text.casefold().count('n'))
-# print(text.count("_", 2, 10))
-# print(len(text))
-# print(text.center(15, '-'))
-# print("club_Python_GNR".capitalize())
+print(text.count('_'))
+print(text.casefold() == "24_club_python_gnr")
+print(text.casefold().count('n'))
+print(text.count("_", 2, 10))
+print(len(text))
+print(text.center(15, '-'))
+print("club_Python_GNR".capitalize())
 
 # print("cafē".encode(encoding='ascii', errors='replace'))
 # print(text.endswith("nR"))
@@ -72,5 +72,5 @@
 # print("mOHak PaTeL".title())
 # print("mOHak PaTeL".upper())
 # print("MOHAK patel".lower())
-print("11001".zfill(8))
+# print("11001".zfill(8))
 # print("Mohak".zfill(40))

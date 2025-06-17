@@ -42,11 +42,12 @@ syntax:
 
 # Variables
 
-# a = "str"
-# b = "str1"
-# print(id(a))
-# print(id(b))
-# print(type(a))
+a = "str"
+b = "5.7"
+print(id(a))
+print(id(b))
+print(type(a))
+print(type(b))
 
 # a = 12      # int
 # a = 12.6    # float
@@ -56,5 +57,6 @@ syntax:
 # a = b'\x01' # bytes
 # a = None
 a = 12
+a=50
 
 print(id(a), '-> ', type(a), '-> ', a)

@@ -23,10 +23,13 @@
 
 # a = 45.69  
 # b = "str1"
+# d = 50
+# c = "50"
 # print(id(a))
 # print(id(b))
 # print(type(a))
 # print(type(b))
+# print(type(c))
 
 
 # a = 12      # int
@@ -36,7 +39,7 @@
 # a = True    # bool (True/False)
 # a = b'\x01' # bytes
 # a = None
-a = 12
+# a = 12
 
 # print(id(a), '-> ', type(a), '-> ', a)
 
@@ -52,8 +55,8 @@ a = 12
 # print(type(name))
 # print(type(age))
 # print(type(price))
-# print(type(a))
-# print(type(b))
+# print(type(bikenumber))
+# print(type(you are drive now))
 
 # a= 3
 # b= 5
@@ -61,8 +64,12 @@ a = 12
 # print(a-b)
 
 
-# price1=float(input("enter the value _1 :"))
-# price2=float(input("enter the value _2 :"))
+price1=str(input("enter the  name :"))
+price2=int(input("enter the age :"))
+price3=float(input("enter the price :"))
+price4=complex(input("enter the bike number :"))
+price5=bool(input("you are drive now   /false/true  :"))
+
 
 # total=price1+price2
 # print(total)
