@@ -64,11 +64,11 @@
 # print(a-b)
 
 
-price1=str(input("enter the  name :"))
-price2=int(input("enter the age :"))
-price3=float(input("enter the price :"))
-price4=complex(input("enter the bike number :"))
-price5=bool(input("you are drive now   /false/true  :"))
+# price1=str(input("enter the  name :"))
+# price2=int(input("enter the age :"))
+# price3=float(input("enter the price :"))
+# price4=complex(input("enter the bike number :"))
+# price5=bool(input("you are drive now   /false/true  :"))
 
 
 # total=price1+price2
@@ -83,5 +83,11 @@ price5=bool(input("you are drive now   /false/true  :"))
     # which phone 
     
     # your are going to home 
+x = 5
     
-    
+print(x > 3 and x < 10)
+print(x > 3 or x < 10)
+# print(x > 3 and x < 10)
+
+# returns True because 5 is greater than 3 AND 5 is less than 10
+ 

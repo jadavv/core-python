@@ -3,6 +3,14 @@
 
 
 
+# print("divy")
+# print("hiral")
+# print("ajit")
+# print("ashok")
+# print("vihar")
+# print("gorov")
+# print("pravin")
+
 
 # Arithmetic operators (+, -, *, /, %, **, //)
 # print(2 ** 3) # Exponentiation
@@ -32,7 +40,7 @@
 
 # multi  line code  shurtcut  ctrl +alt 
 # x = 5  # Assign value
-# x += 3 # Equivalent to x = x + 3 (x becomes 8)
+# x *= 12 # Equivalent to x = x + 3 (x becomes 8)
 # print(x) 
 
 # x = 5  # Assign value
@@ -93,6 +101,12 @@
 # python
 # Copy
 # Edit
+
+# b=10
+# h=4
+# print(id())
+
+
 # a = [1, 2, 3]
 # b = [1, 2, 3]
 # c = a
@@ -116,12 +130,12 @@
 # python
 # Copy
 # Edit
-a = 6  # 0110 in binary       2   7   5
-b = 3  # 0011 in binary      
+a = 5  # 0101 in binary       
+# b = 10  #1000  in binary      
 
-print(a & b)  # 2 (0001) - AND
-print(a | b)  # 7 (0111) - OR
-print(a ^ b)  # 5 (0110) - XOR
+# print(a & b)  # 2 (0010) - AND
+# print(a | b)  # 7 (0111) - OR
+# print(a ^ b)  # 5 (0110) - XOR 13
 
 
 # print(~a)     # -6 (inverts bits)
@@ -131,7 +145,7 @@ print(a ^ b)  # 5 (0110) - XOR
 # Decimal, Hexadecimal, and Octal chart for numbers 1 to 16:
 
 # Decimal (Base 10)	Hexadecimal (Base 16)	Octal (Base 8)	Binary (Base 2)
-# 1		                                      1	             0001
+# 1		                                      1	                 0001
 # 2	                                           2	             0010
 # 3	                                           3	             0011
 # 4	                                           4	             0100

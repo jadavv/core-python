@@ -19,7 +19,9 @@
 # multi = """This is
 # a multiline
 # string
+# sssss
 
+# svkmvvm
 # python very easy language ."""
 
 # print(multi)
@@ -29,13 +31,13 @@
 # python
 # Copy
 # Edit
-# s = "Python"
-# #    0  1   2 3 4 5  starting positive  +
-# #    -5 -4 -3 -2 -1    ending nagative  -
+s = "python"
+#    0  1   2 3 4 5  starting positive  +
+#    -5 -4 -3 -2 -1    ending nagative  -
 
-# print(s[5])   # P
-# print(s[-5])  # o
-
+print(s[1])   # y
+print(s[-4])  # t
+# print("skss")
 
 # 4. String Slicing
 # python
@@ -88,8 +90,8 @@
 # python
 # Copy
 # Edit
-name = "Alice"
-age = 25
+# name = "Alice"
+# age = 25
 # print("My name is %s and I am %d years old" % (name, age))
 # str.format()
 # python
@@ -146,6 +148,6 @@ age = 25
 # python
 # Copy
 # Edit
-table = str.maketrans("aeiou", "12345")
-s = "aeiou"
-print(s.translate(table))  # h2ll4 w4rld
+# table = str.maketrans("aeiou", "12345")
+# s = "aeiou"
+# print(s.translate(table))  # h2ll4 w4rld
