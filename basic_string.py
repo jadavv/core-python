@@ -31,30 +31,29 @@
 # python
 # Copy
 # Edit
-s = "python"
+# s = "python"
 #    0  1   2 3 4 5  starting positive  +
 #    -5 -4 -3 -2 -1    ending nagative  -
 
-print(s[1])   # y
-print(s[-4])  # t
+# print(s[1])   # y
+# print(s[-4])  # t
 # print("skss")
 
 # 4. String Slicing
 # python
 # Copy
-# Edit
-# s = "Programming" 
-# print(s[5:10])   # ammin
-# print(s[0:])    #rogramming 
-# print(s[:10])    # Programmin
-
+# # Edit
+# s = "Programming"  # 11 
+# print(s[2:])   #ogramming 
+# print(s[1:])    #rogramming
+# print(s[10:])    # Programmin
 
 # 5. String Length
 # python
 # Copy
 # Edit
 
-# a="_ashish"
+# a="_ashishhiralshahal_655dcfct"
 # print(len(a))  # 13
 # 🔹 Intermediate String Concepts
 
@@ -63,13 +62,15 @@ print(s[-4])  # t
 # python
 # Copy
 # # Edit
-# s = " how are you guys "
+s = " how are you hello  shehal "
+s=""
 
-# print(s.strip())      # how are you guys
-# print(s.upper())      # " HELLO WORLD "
-# print(s.lower())      # " hello world "
-# print(s.title())      # " Hello World "
-# print(s.replace("guys", "friends"))  # " hello Python "
+print(s.strip())      # how are you guys
+print(s.upper())      # " HELLO WORLD "
+print(s.lower())      # " hello world "
+print(s.title())      # " Hello World "
+print(s.replace("hiral", "divya"))  # " hello Python "
+print(s.replace("shehal", "riya"))  # " hello Python "
 
 
 
