@@ -62,15 +62,14 @@
 # python
 # Copy
 # # Edit
-s = " how are you hello  shehal "
-s=""
+# s = " how are you hello  mahendra "
 
-print(s.strip())      # how are you guys
-print(s.upper())      # " HELLO WORLD "
-print(s.lower())      # " hello world "
-print(s.title())      # " Hello World "
-print(s.replace("hiral", "divya"))  # " hello Python "
-print(s.replace("shehal", "riya"))  # " hello Python "
+# print(s.strip())      # how are you guys
+# print(s.upper())      # " HELLO WORLD "
+# print(s.lower())      # " hello world "
+# print(s.title())      # " Hello World "
+# print(s.replace("vinay", "mahendra"))  # " hello Python "
+# # print(s.replace("shehal", "riya"))  # " hello Python "
 
 
 
@@ -79,21 +78,22 @@ print(s.replace("shehal", "riya"))  # " hello Python "
 # python
 # Copy
 # # Edit
-# s = "Python"
-# s1="python is very easy programing language"
-# print("django" in s)       # True
-# print(s.find("Python"))     # 10
-# print(s.index("Python"))       # 7
+# s = "Python  is good"
+# s1="python is very easy programing language and is interpreted laguage "
+# print("easy" in s1)       #        m 59  s58 h 59 
+# print(s1.find("is"))     # 7
+# print(s1.index("laguage"))       # 
+# print(s1.index("easy"))       # 13
 
 
 # 8. String Formatting
 # Old-style:
 # python
 # Copy
-# Edit
-# name = "Alice"
-# age = 25
-# print("My name is %s and I am %d years old" % (name, age))
+# # Edit
+# name = "cat"
+# age = 10
+# print(" name is %s and I am %d years old" % (name, age))
 # str.format()
 # python
 # Copy
@@ -110,9 +110,12 @@ print(s.replace("shehal", "riya"))  # " hello Python "
 # python
 # Copy
 # Edit
-# sentence = "Python is awesome"
+# sentence = "Python is awesome and easy"
 # words = sentence.split()  # ['Python', 'is', 'awesome']
-# joined = "-".join(words)  # "Python-is-awesome"
+# joined = "hs".join(words)  # "Python-is-awesome"
+# print(sentence)
+# print(words)
+# print(joined)
 # 🔹 Advanced String Concepts
 
 # 10. String Immutability
@@ -121,34 +124,35 @@ print(s.replace("shehal", "riya"))  # " hello Python "
 # python
 # Copy
 # Edit
-# s = "Hello"
-# # s[0] = 'Y'  # ❌ Error
-# s = "Y" + s[1:]  # ✅ New string
+s = "Hello"
+# s[0] = 'Y'  # ❌ Error
+# s = "Y" s[1:]  # ✅ New string
 
 
 # 11. String Encoding & Decoding
 # python
 # Copy
 # Edit
-# s = "hello"
+# s = "hiral@123"
 # encoded = s.encode('utf-8')   # b'hello'
 # decoded = encoded.decode('utf-8')  # "hello"
-# print(decoded)
 # print(encoded)
+# print(decoded)
 
 # 12. Regular Expressions (regex) with strings
 # python
 # Copy
 # Edit
 # import re
-# text = "The rain in Spain"
-# result = re.findall(r"\b\w{4}\b", text)  # ['rain', 'Spain']
-
+# text = "The rain in Spain hiralllll  shehallll"
+# result = re.findall(r"\b\w{9}\b", text)  # ['rain', 'Spain']
+# print(result)
 
 # 13. String Translation (Advanced Replace)
 # python
 # Copy
 # Edit
-# table = str.maketrans("aeiou", "12345")
+
+# table = str.maketrans("aeiou", "56789")
 # s = "aeiou"
-# print(s.translate(table))  # h2ll4 w4rld
+# print(s.translate(table))  
